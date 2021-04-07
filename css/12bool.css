@@ -10,7 +10,14 @@
 .debug [class*="col-"] {
     height: 100%;
     min-height: 200px;
+    line-height: 200px;
     border: 1px solid black;
+    text-align: center;
+}
+
+.debug .nested>[class*="col-"] {
+    background-color: lightcoral;
+    border: 1px solid white;
 }
 
 
@@ -31,6 +38,10 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.container.nested {
+    padding: 1%;
 }
 
 [class*="col-"] {
