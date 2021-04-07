@@ -1,0 +1,4 @@
+.debug [class*="col-"] {
+    line-height: 200px;
+    text-align: center;
+}

@@ -10,9 +10,7 @@
 .debug [class*="col-"] {
     height: 100%;
     min-height: 200px;
-    line-height: 200px;
     border: 1px solid black;
-    text-align: center;
 }
 
 .debug .nested>[class*="col-"] {
